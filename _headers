@@ -1,0 +1,6 @@
+/*
+  Content-Security-Policy: base-uri 'none'; default-src 'none'; font-src 'self'; frame-ancestors 'none'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://randaandchrisna.report-uri.io/r/default/csp/enforce
+  Referrer-Policy: same-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
