@@ -1,11 +1,19 @@
 body {
+  background-color: #fff8e1;
+  color: #1976d2;
   margin: 2rem;
   font-family: Menlo, Consolas, monospace;
   font-size: 22px;
 }
 
+a {
+  color: #e57373;
+  text-decoration: none;
+}
+
 ul,
 li {
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -25,5 +33,16 @@ ul {
   body {
     margin: 1.5rem;
     font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #212121;
+    color: #bbdefb;
+  }
+
+  a {
+    color: #ef9a9a;
   }
 }
